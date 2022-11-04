@@ -14,4 +14,6 @@ public interface UserService {
     List<Post> findPost(long id);
 
     User findById(long id);
+
+//    public List<User> UserManyPosts();
 }

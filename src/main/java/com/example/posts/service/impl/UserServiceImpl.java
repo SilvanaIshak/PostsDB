@@ -34,4 +34,11 @@ public class UserServiceImpl implements UserService {
     public User findById(long id) {
         return userRepo.findById(id).orElse(null);
     }
+
+//    @Override
+//    public List<User> UserManyPosts() {
+//        return userRepo.UserManyPosts();
+//    }
+
+
 }
