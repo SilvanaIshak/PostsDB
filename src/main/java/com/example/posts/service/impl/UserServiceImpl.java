@@ -41,7 +41,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> UserPostsCount(Integer count) {
+    public List<User> UserPostsCount(int count) {
         return userRepo.UserPostsCount(count);
     }
 

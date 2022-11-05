@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/users")
@@ -26,6 +27,11 @@ public class UserController {
     public List<User> findAll(){
         return userService.findAll();
     }
+
+//    @GetMapping
+//    public List<String> findAll(){
+//        return userService.findAll().stream().map(u -> u.getName()).collect(Collectors.toList());
+//    }
 
     @PostMapping
     public void create(@RequestBody User user) {
@@ -50,7 +56,7 @@ public class UserController {
     }
 
     @GetMapping("/count/{count}")
-    public List<User> UserPostsCount(@PathVariable Integer count){
+    public List<User> UserPostsCount(@PathVariable int count){
         return userService.UserPostsCount(count);
     }
 }

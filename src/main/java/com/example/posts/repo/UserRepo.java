@@ -17,5 +17,5 @@ public interface UserRepo extends CrudRepository<User, Long> {
 
 
     @Query(value = "select u from User u where u.posts.size > :count")
-    public List<User> UserPostsCount(Integer count);
+    public List<User> UserPostsCount(int count);
 }

@@ -17,5 +17,5 @@ public interface UserService {
 
    public List<User> UserPosts();
 
-    List<User> UserPostsCount(Integer count);
+    List<User> UserPostsCount(int count);
 }
