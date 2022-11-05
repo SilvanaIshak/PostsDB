@@ -11,13 +11,4 @@ public interface PostRepo extends CrudRepository<Post, Long> {
 
     List<Post> findAll();
 
-//    @Query("Select p From PostV2")
-//    List<PostV2> findAllV2();
-
-
-//   Post findPostById(long id);
-//    void updatePostById(long id, PostDto p);
-//    void deleteById(long id);
-//   PostV2 findByAuthor(String author);
-
 }

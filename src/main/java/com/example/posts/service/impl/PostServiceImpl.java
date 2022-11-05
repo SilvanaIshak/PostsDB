@@ -18,14 +18,10 @@ public class PostServiceImpl implements PostService {
 
 //    @Autowired
 //    ListMapper<Post,PostDto> listMapperpostToDto;
-//
-//    @Autowired
-//    ListMapper<PostV2,PostV2Dto> listMapperpostToDtoV2;
-
     // TODO map through stream
 //    @Override
 //    public List<PostDto> findAll() {
-//        //return postRepo.findAll();
+//        return postRepo.findAll();
 //
 ////        return (List<PostDto>) listMapperpostToDto.mapList(postRepo.findAll(), new PostDto());
 //    }

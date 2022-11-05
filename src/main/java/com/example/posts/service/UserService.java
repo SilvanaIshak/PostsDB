@@ -15,5 +15,7 @@ public interface UserService {
 
     User findById(long id);
 
-//    public List<User> UserManyPosts();
+   public List<User> UserPosts();
+
+    List<User> UserPostsCount(Integer count);
 }

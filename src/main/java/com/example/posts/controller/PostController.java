@@ -1,10 +1,8 @@
 package com.example.posts.controller;
 
 import com.example.posts.domain.Post;
-import com.example.posts.repo.PostRepo;
 import com.example.posts.service.PostService;
 import lombok.RequiredArgsConstructor;
-import net.bytebuddy.build.Plugin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
